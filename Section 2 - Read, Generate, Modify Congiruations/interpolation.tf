@@ -5,9 +5,9 @@ provider "aws" {
   secret_key = "PUT-YOUR-SECRET-KEY-HERE"
 }
 
-resource "aws_eip" "myeip" {
+/*resource "aws_eip" "myeip" {
    vpc      = true
-}
+}*/
 
 #18.12.30.50
 

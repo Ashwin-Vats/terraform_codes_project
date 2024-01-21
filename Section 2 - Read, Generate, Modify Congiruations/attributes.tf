@@ -4,9 +4,9 @@ provider "aws" {
   secret_key = "PUT-YOUR-SECRET-KEY-HERE"
 }
 
-resource "aws_eip" "lb" {
+/*resource "aws_eip" "lb" {
   vpc      = true
-}
+}*/
 
 output "eip" {
   value = aws_eip.lb
